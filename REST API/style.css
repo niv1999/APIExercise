@@ -1,0 +1,22 @@
+table, th, td {
+    margin: auto;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+    background-color: lightsalmon;
+}
+
+thead tr:first-child {
+    background-color: lightgray;
+}
+
+img {
+    width: 50px;
+}
